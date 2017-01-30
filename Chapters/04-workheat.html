@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Ch E</title>
+
+		<meta name="description" content="Ch.4 - Ch E Notes">
+		<meta name="author" content="Arjun Kalburgi">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="Reveal Files/css/reveal.css">
+		<link rel="stylesheet" href="Reveal Files/css/theme/moon.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="Reveal Files/lib/css/zenburn.css">
+
+		<!--[if lt IE 9]>
+		<script src="Reveal Files/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Ch E 243 - CHAPTER 4</h1>
+					<h2>First Law for Closed Systems</h2>
+				</section>
+
+				<section>
+					<section><h2>Units</h2></section>
+					<section>
+						<h3>SI base units</h3>
+						<p>
+						    length  m<br> 
+						    mass    kg<br>
+						    time    s<br>
+						    temp    K
+						</p>	
+					</section>
+					<section>
+						<h3>SI derived units</h3>
+						<p>
+							area        m^2<br>
+						    volume      m^3<br>
+						    density     kg/m^3<br>
+						    force       N = kg*m/s^2<br>
+						    energy      J = N*m = kg*m^2/s^2<br>
+						    pressure    Pa = N/m^2 = kg/m*s^2
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<section><h2>Properties of a System</h2></section>
+					<section>
+						<p>System: a quantity of matter or region of space under study</p>
+					</section>
+					<section>
+						A system can be Closed (control mass) or Open (control volume)
+					</section>
+					<section>
+						There are two types of properties: <br>
+						Extensive and Intensive
+					</section>
+					<section>
+						Extensive: proportional to the size of the system - mass, volume<br>
+						Intensive: independent of the size of the system - temperature, pressure
+					</section>
+				</section>
+
+				<section>
+					<section><h2>States, Processes and Cycles</h2></section>
+					<section>System can be in many states</section>
+					<section>
+						<h3>The State Postulate</h3>
+						<p>For a pure substance in one phase, the state is specified by any two intensive properties. <br>
+						For a pure substance in two phase equilibrium, the sate is specified by any one intensive property.</p>
+					</section>
+					<section>
+						<h3>Process</h3>
+						Going from one state to the other
+					</section>
+					<section>
+						<h3>Cycle</h3>
+						A process that begins and ends at the same state. 
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Temperature Scales</h2>
+					</section>
+					<section>Celsius scale is not absolute (5deg is not twice as warm as 10deg)</section>
+					<section>Kelvin is absolute</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Pressure Scales</h2>
+						<section>Absolute Pressure at 0 implies vacuum</section>
+						<section>guage/vaccum (relative to ambient/atmospheric) pressure</section>
+						<section>
+							if Absolute pressure > Atmospheric pressure, introduce Guage pressure<br>
+							Pg = Pabs - Patm
+						</section>
+						<section>
+							if Absolute pressure < Atmospheric pressure, introduce Vacuum pressure<br>
+							Pv = Patm - Pabs
+						</section>
+					</section>
+					<section>
+						Class problem 4 here.
+					</section>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>
+						- <a href="http://slides.com">Try the online editor</a> <br>
+						- <a href="https://github.com/askalburgi/makeover">Source code &amp; documentation</a>
+					</p>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="Reveal Files/lib/js/head.min.js"></script>
+		<script src="Reveal Files/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+        margin: 0.3,
+        height: 900,
+        maxScale: 1,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'Reveal Files/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'Reveal Files/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'Reveal Files/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'Reveal Files/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'Reveal Files/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'Reveal Files/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
